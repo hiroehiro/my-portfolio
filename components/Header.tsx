@@ -10,7 +10,7 @@ const pages = [
   { name: "トップ", path: "/" },
   { name: "プロフィール", path: "/profile" },
   { name: "スキル", path: "/skills" },
-  { name: "インターン参加歴", path: "/internship" },
+  { name: "制作物", path: "/production" },
 ];
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
